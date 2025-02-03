@@ -4,7 +4,7 @@
 </div>
 
 <div style="background-color: #f5f5f5; padding: 20px; border-radius: 10px;">
-Welcome to my repository where I'm channeling my inner Euler while wrestling with Neural Networks! Even with a math degree, I sometimes wonder if my brain is just a poorly optimized neural net... 🤓
+Welcome to my repository where I'm channeling my inner Stirling while wrestling with Neural Networks! Even with a math degree, I sometimes wonder if my brain is just a poorly optimized neural net... 🤓
 </div>
 
 ## 🤔 What's Actually Happening?
