@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data files
+*.txt
+*.json
+
+# Directory specific data
+Test/data*.txt
+MakeMore/names*.txt
+MakeMore/names*.json
+MakeMore/sanskrit_names.txt
+GPT/dataset.txt
+
+# Large files
+*.gz
+*.zip
+*.tar
