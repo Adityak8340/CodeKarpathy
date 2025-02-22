@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large data files
+Test/data.txt
+Test/data1.txt
+GPT/dataset.txt
+MakeMore/names*.txt
+MakeMore/names*.json
+MakeMore/sanskrit_names.txt
+
+# Jupyter
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Large files
+*.gz
+*.zip
+*.tar
+*.7z
+*.bin
+*.h5
+*.model
+*.ckpt
+
+# Size thresholds
+*.[1-9][0-9]*MB
+*.[1-9][0-9]*GB
