@@ -1,20 +1,3 @@
-10.84199 M parameters
-step 0: train loss 4.9474, val loss 4.9462
-step 500: train loss 2.1294, val loss 2.1360
-step 1000: train loss 1.5004, val loss 1.5025
-step 1500: train loss 0.9921, val loss 1.0048
-step 2000: train loss 0.6482, val loss 0.6719
-step 2500: train loss 0.4708, val loss 0.4789
-step 3000: train loss 0.3683, val loss 0.3739
-step 3500: train loss 0.3067, val loss 0.3074
-step 4000: train loss 0.2713, val loss 0.2597
-step 4500: train loss 0.2385, val loss 0.2273
-step 4999: train loss 0.2090, val loss 0.2036
-
-
-
-
-
 भीतर से वहाँ जो लो चढ़ते हैं ।
 प्रकृति के कभी, निर्भय हैं
 
