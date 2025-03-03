@@ -7,6 +7,8 @@ __pycache__/
 Test/data.txt
 Test/data1.txt
 GPT/dataset.txt
+GPT2/input.txt
+GPT2/dataset.txt
 MakeMore/names*.txt
 MakeMore/names*.json
 MakeMore/sanskrit_names.txt
