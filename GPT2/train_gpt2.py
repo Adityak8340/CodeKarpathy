@@ -1,6 +1,8 @@
 from dataclasses import dataclass
 import math
 import torch
+import torch.backends
+import torch.backends.mps
 import torch.nn as nn
 from torch.nn import functional as F
 
@@ -159,15 +161,21 @@ class GPT(nn.Module):
         return model
 
 # -----------------------------------------------------------------------------
-model = GPT.from_pretrained('gpt2')
+# attempt to autodetect the device
+device = "cpu"
+if torch.cuda.is_available():
+    device = "cuda"
+elif hasattr(torch.backends, "mps") and torch.backends.mps.is_available():
+    device = "mps"
+print(f"Using device: {device}")
+
+# model = GPT.from_pretrained('gpt2')
+model = GPT(GPTConfig())
 # print("Hehe! Model loaded successfully!")
 
 num_return_sequences = 5
 max_length = 30
 model.eval()
-# Check if CUDA is available, otherwise use CPU
-device = 'cuda' if torch.cuda.is_available() else 'cpu'
-print(f"Using device: {device}")
 model.to(device)
 
 # prefix tokens
