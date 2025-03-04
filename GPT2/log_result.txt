@@ -1,0 +1,217 @@
+(torch) azureuser@Linux-gpu:~/GPT/GPT2$ python train_gpt2.py
+Using device: cuda
+Loaded 338025 tokens
+1 epoch = 20 batches
+steps: 0, loss: 10.935506820678711, time: 1488.74ms
+steps: 1, loss: 9.39840316772461, time: 1030.37ms
+steps: 2, loss: 8.941719055175781, time: 1029.57ms
+steps: 3, loss: 8.818649291992188, time: 1032.18ms
+steps: 4, loss: 8.486976623535156, time: 1029.49ms
+steps: 5, loss: 8.465405464172363, time: 1032.00ms
+steps: 6, loss: 8.293359756469727, time: 1032.23ms
+steps: 7, loss: 8.081120491027832, time: 1030.34ms
+steps: 8, loss: 7.8024187088012695, time: 1033.40ms
+steps: 9, loss: 7.5629143714904785, time: 1031.26ms
+steps: 10, loss: 7.396878719329834, time: 1036.00ms
+steps: 11, loss: 7.269935131072998, time: 1032.71ms
+steps: 12, loss: 7.080216884613037, time: 1034.21ms
+steps: 13, loss: 7.013124942779541, time: 1033.22ms
+steps: 14, loss: 6.949090957641602, time: 1032.87ms
+steps: 15, loss: 6.785497665405273, time: 1033.64ms
+steps: 16, loss: 6.749026775360107, time: 1034.40ms
+steps: 17, loss: 6.703066825866699, time: 1034.62ms
+steps: 18, loss: 6.661002159118652, time: 1035.45ms
+steps: 19, loss: 6.488698959350586, time: 1036.96ms
+steps: 20, loss: 6.470376968383789, time: 1034.96ms
+steps: 21, loss: 6.218292236328125, time: 1036.84ms
+steps: 22, loss: 6.313665390014648, time: 1035.35ms
+steps: 23, loss: 6.241882801055908, time: 1036.42ms
+steps: 24, loss: 6.195125102996826, time: 1036.03ms
+steps: 25, loss: 6.417601585388184, time: 1037.04ms
+steps: 26, loss: 6.499958038330078, time: 1038.13ms
+steps: 27, loss: 6.404665470123291, time: 1038.09ms
+steps: 28, loss: 6.3116278648376465, time: 1038.21ms
+steps: 29, loss: 6.234903335571289, time: 1038.52ms
+steps: 30, loss: 6.239126205444336, time: 1038.48ms
+steps: 31, loss: 6.247247695922852, time: 1039.14ms
+steps: 32, loss: 6.216071605682373, time: 1039.47ms
+steps: 33, loss: 6.33964204788208, time: 1039.65ms
+steps: 34, loss: 6.426703929901123, time: 1040.17ms
+steps: 35, loss: 6.286611080169678, time: 1042.41ms
+steps: 36, loss: 6.287359714508057, time: 1040.09ms
+steps: 37, loss: 6.276581764221191, time: 1042.83ms
+steps: 38, loss: 6.245070934295654, time: 1041.09ms
+steps: 39, loss: 6.091274261474609, time: 1042.32ms
+steps: 40, loss: 6.257401943206787, time: 1041.77ms
+steps: 41, loss: 6.006374359130859, time: 1041.63ms
+steps: 42, loss: 6.144866466522217, time: 1042.39ms
+steps: 43, loss: 6.034744739532471, time: 1041.60ms
+steps: 44, loss: 5.9864397048950195, time: 1042.63ms
+steps: 45, loss: 6.203456878662109, time: 1043.77ms
+steps: 46, loss: 6.319815635681152, time: 1044.03ms
+steps: 47, loss: 6.191172122955322, time: 1042.82ms
+steps: 48, loss: 6.137396812438965, time: 1045.98ms
+steps: 49, loss: 6.0562357902526855, time: 1047.31ms
+(torch) azureuser@Linux-gpu:~/GPT/GPT2$ python train_gpt2.py
+Using device: cuda
+Loaded 338025 tokens
+1 epoch = 20 batches
+steps: 0, loss: 10.935506820678711, time: 1471.41ms, tokens/sec: 11134.87
+steps: 1, loss: 9.39840316772461, time: 1034.91ms, tokens/sec: 15831.26
+steps: 2, loss: 8.941719055175781, time: 1033.75ms, tokens/sec: 15849.14
+steps: 3, loss: 8.818649291992188, time: 1034.23ms, tokens/sec: 15841.72
+steps: 4, loss: 8.486976623535156, time: 1033.81ms, tokens/sec: 15848.10
+steps: 5, loss: 8.465405464172363, time: 1033.21ms, tokens/sec: 15857.32
+steps: 6, loss: 8.293359756469727, time: 1033.53ms, tokens/sec: 15852.53
+steps: 7, loss: 8.081120491027832, time: 1034.62ms, tokens/sec: 15835.76
+steps: 8, loss: 7.8024187088012695, time: 1033.84ms, tokens/sec: 15847.78
+steps: 9, loss: 7.5629143714904785, time: 1034.24ms, tokens/sec: 15841.56
+steps: 10, loss: 7.396878719329834, time: 1033.83ms, tokens/sec: 15847.84
+steps: 11, loss: 7.269935131072998, time: 1035.09ms, tokens/sec: 15828.56
+steps: 12, loss: 7.080216884613037, time: 1035.48ms, tokens/sec: 15822.56
+steps: 13, loss: 7.013124942779541, time: 1036.18ms, tokens/sec: 15811.93
+steps: 14, loss: 6.949090957641602, time: 1035.44ms, tokens/sec: 15823.24
+steps: 15, loss: 6.785497665405273, time: 1037.46ms, tokens/sec: 15792.49
+steps: 16, loss: 6.749026775360107, time: 1037.31ms, tokens/sec: 15794.69
+steps: 17, loss: 6.703066825866699, time: 1039.62ms, tokens/sec: 15759.54
+steps: 18, loss: 6.661002159118652, time: 1038.01ms, tokens/sec: 15783.98
+steps: 19, loss: 6.488698959350586, time: 1038.66ms, tokens/sec: 15774.20
+steps: 20, loss: 6.470376968383789, time: 1039.43ms, tokens/sec: 15762.48
+steps: 21, loss: 6.218292236328125, time: 1038.13ms, tokens/sec: 15782.20
+steps: 22, loss: 6.313665390014648, time: 1041.27ms, tokens/sec: 15734.60
+steps: 23, loss: 6.241882801055908, time: 1039.67ms, tokens/sec: 15758.80
+steps: 24, loss: 6.195125102996826, time: 1038.31ms, tokens/sec: 15779.54
+steps: 25, loss: 6.417601585388184, time: 1039.15ms, tokens/sec: 15766.74
+steps: 26, loss: 6.499958038330078, time: 1040.07ms, tokens/sec: 15752.79
+steps: 27, loss: 6.404665470123291, time: 1040.95ms, tokens/sec: 15739.43
+steps: 28, loss: 6.3116278648376465, time: 1042.02ms, tokens/sec: 15723.27
+steps: 29, loss: 6.234903335571289, time: 1042.91ms, tokens/sec: 15709.89
+steps: 30, loss: 6.239126205444336, time: 1039.88ms, tokens/sec: 15755.73
+steps: 31, loss: 6.247247695922852, time: 1041.61ms, tokens/sec: 15729.56
+steps: 32, loss: 6.216071605682373, time: 1042.58ms, tokens/sec: 15714.92
+steps: 33, loss: 6.33964204788208, time: 1041.95ms, tokens/sec: 15724.29
+steps: 34, loss: 6.426703929901123, time: 1043.07ms, tokens/sec: 15707.43
+steps: 35, loss: 6.286611080169678, time: 1043.32ms, tokens/sec: 15703.70
+steps: 36, loss: 6.287359714508057, time: 1042.70ms, tokens/sec: 15713.00
+steps: 37, loss: 6.276581764221191, time: 1042.50ms, tokens/sec: 15716.13
+steps: 38, loss: 6.245070934295654, time: 1043.50ms, tokens/sec: 15701.08
+steps: 39, loss: 6.091274261474609, time: 1042.60ms, tokens/sec: 15714.50
+steps: 40, loss: 6.257401943206787, time: 1043.80ms, tokens/sec: 15696.48
+steps: 41, loss: 6.006374359130859, time: 1044.23ms, tokens/sec: 15689.96
+steps: 42, loss: 6.144866466522217, time: 1043.95ms, tokens/sec: 15694.22
+steps: 43, loss: 6.034744739532471, time: 1044.20ms, tokens/sec: 15690.42
+steps: 44, loss: 5.9864397048950195, time: 1044.88ms, tokens/sec: 15680.24
+steps: 45, loss: 6.203456878662109, time: 1045.43ms, tokens/sec: 15671.97
+steps: 46, loss: 6.319815635681152, time: 1044.96ms, tokens/sec: 15679.09
+steps: 47, loss: 6.191172122955322, time: 1045.16ms, tokens/sec: 15676.08
+steps: 48, loss: 6.137396812438965, time: 1046.12ms, tokens/sec: 15661.62
+steps: 49, loss: 6.0562357902526855, time: 1049.76ms, tokens/sec: 15607.36
+(torch) azureuser@Linux-gpu:~/GPT/GPT2$ python train_gpt2.py
+Using device: cuda
+Loaded 338025 tokens
+1 epoch = 20 batches
+steps: 0, loss: 10.935468673706055, time: 821.33ms, tokens/sec: 19948.04
+steps: 1, loss: 9.3983154296875, time: 352.81ms, tokens/sec: 46438.76
+steps: 2, loss: 8.941563606262207, time: 353.22ms, tokens/sec: 46384.44
+steps: 3, loss: 8.818245887756348, time: 354.03ms, tokens/sec: 46278.42
+steps: 4, loss: 8.486893653869629, time: 353.59ms, tokens/sec: 46335.56
+steps: 5, loss: 8.465094566345215, time: 354.00ms, tokens/sec: 46281.98
+steps: 6, loss: 8.29324722290039, time: 354.00ms, tokens/sec: 46281.88
+steps: 7, loss: 8.081089973449707, time: 353.87ms, tokens/sec: 46299.72
+steps: 8, loss: 7.801991939544678, time: 353.37ms, tokens/sec: 46364.91
+steps: 9, loss: 7.562851428985596, time: 353.83ms, tokens/sec: 46305.21
+steps: 10, loss: 7.396845817565918, time: 354.18ms, tokens/sec: 46258.42
+steps: 11, loss: 7.269522190093994, time: 354.26ms, tokens/sec: 46248.21
+steps: 12, loss: 7.079909801483154, time: 354.11ms, tokens/sec: 46267.77
+steps: 13, loss: 7.013071537017822, time: 354.07ms, tokens/sec: 46273.22
+steps: 14, loss: 6.948619842529297, time: 354.74ms, tokens/sec: 46185.80
+steps: 15, loss: 6.784891605377197, time: 354.56ms, tokens/sec: 46209.18
+steps: 16, loss: 6.748652935028076, time: 353.69ms, tokens/sec: 46322.81
+steps: 17, loss: 6.702064037322998, time: 355.25ms, tokens/sec: 46120.14
+steps: 18, loss: 6.660985946655273, time: 354.15ms, tokens/sec: 46263.47
+steps: 19, loss: 6.487290382385254, time: 354.75ms, tokens/sec: 46184.03
+steps: 20, loss: 6.469379425048828, time: 354.52ms, tokens/sec: 46215.12
+steps: 21, loss: 6.218003749847412, time: 354.68ms, tokens/sec: 46193.59
+steps: 22, loss: 6.31348991394043, time: 354.51ms, tokens/sec: 46215.68
+steps: 23, loss: 6.241458415985107, time: 354.52ms, tokens/sec: 46214.09
+steps: 24, loss: 6.1948041915893555, time: 354.69ms, tokens/sec: 46191.91
+steps: 25, loss: 6.4166154861450195, time: 354.50ms, tokens/sec: 46217.42
+steps: 26, loss: 6.499906063079834, time: 354.55ms, tokens/sec: 46211.23
+steps: 27, loss: 6.404520511627197, time: 354.86ms, tokens/sec: 46169.75
+steps: 28, loss: 6.310290336608887, time: 354.97ms, tokens/sec: 46156.26
+steps: 29, loss: 6.234733581542969, time: 354.27ms, tokens/sec: 46247.68
+steps: 30, loss: 6.235757827758789, time: 354.90ms, tokens/sec: 46165.26
+steps: 31, loss: 6.2464213371276855, time: 354.87ms, tokens/sec: 46168.85
+steps: 32, loss: 6.215066432952881, time: 355.18ms, tokens/sec: 46129.31
+steps: 33, loss: 6.337133884429932, time: 354.71ms, tokens/sec: 46189.34
+steps: 34, loss: 6.426155090332031, time: 355.54ms, tokens/sec: 46081.70
+steps: 35, loss: 6.286799430847168, time: 355.06ms, tokens/sec: 46144.64
+steps: 36, loss: 6.285422325134277, time: 354.76ms, tokens/sec: 46182.85
+steps: 37, loss: 6.273336410522461, time: 355.66ms, tokens/sec: 46066.84
+steps: 38, loss: 6.243602752685547, time: 354.76ms, tokens/sec: 46183.25
+steps: 39, loss: 6.089861869812012, time: 355.48ms, tokens/sec: 46089.74
+steps: 40, loss: 6.2567009925842285, time: 355.26ms, tokens/sec: 46117.73
+steps: 41, loss: 6.006546974182129, time: 354.70ms, tokens/sec: 46191.04
+steps: 42, loss: 6.14389705657959, time: 355.67ms, tokens/sec: 46065.36
+steps: 43, loss: 6.033939838409424, time: 355.29ms, tokens/sec: 46114.23
+steps: 44, loss: 5.985623359680176, time: 355.61ms, tokens/sec: 46073.33
+steps: 45, loss: 6.2022552490234375, time: 355.66ms, tokens/sec: 46066.38
+steps: 46, loss: 6.318447589874268, time: 355.43ms, tokens/sec: 46096.76
+steps: 47, loss: 6.189698696136475, time: 354.88ms, tokens/sec: 46167.09
+steps: 48, loss: 6.135556697845459, time: 355.54ms, tokens/sec: 46082.26
+steps: 49, loss: 6.053541660308838, time: 355.58ms, tokens/sec: 46076.79
+(torch) azureuser@Linux-gpu:~/GPT/GPT2$ python train_gpt2.py
+Using device: cuda
+Loaded 338025 tokens
+1 epoch = 20 batches
+steps: 0, loss: 10.936103820800781, time: 766.06ms, tokens/sec: 21387.27
+steps: 1, loss: 9.398225784301758, time: 303.51ms, tokens/sec: 53982.31
+steps: 2, loss: 8.943065643310547, time: 302.46ms, tokens/sec: 54168.98
+steps: 3, loss: 8.822955131530762, time: 302.58ms, tokens/sec: 54146.87
+steps: 4, loss: 8.487809181213379, time: 302.60ms, tokens/sec: 54144.27
+steps: 5, loss: 8.46891975402832, time: 302.56ms, tokens/sec: 54151.10
+steps: 6, loss: 8.294432640075684, time: 302.62ms, tokens/sec: 54141.16
+steps: 7, loss: 8.08130931854248, time: 302.51ms, tokens/sec: 54160.74
+steps: 8, loss: 7.805657386779785, time: 302.63ms, tokens/sec: 54138.26
+steps: 9, loss: 7.563085556030273, time: 302.54ms, tokens/sec: 54155.02
+steps: 10, loss: 7.397106647491455, time: 302.45ms, tokens/sec: 54171.08
+steps: 11, loss: 7.272843360900879, time: 302.59ms, tokens/sec: 54146.06
+steps: 12, loss: 7.083791255950928, time: 302.53ms, tokens/sec: 54157.50
+steps: 13, loss: 7.012892246246338, time: 303.05ms, tokens/sec: 54064.49
+steps: 14, loss: 6.953252792358398, time: 302.54ms, tokens/sec: 54153.96
+steps: 15, loss: 6.7928466796875, time: 302.96ms, tokens/sec: 54079.17
+steps: 16, loss: 6.752716541290283, time: 303.06ms, tokens/sec: 54062.27
+steps: 17, loss: 6.7141242027282715, time: 302.42ms, tokens/sec: 54175.65
+steps: 18, loss: 6.663586616516113, time: 302.78ms, tokens/sec: 54112.47
+steps: 19, loss: 6.498142242431641, time: 303.03ms, tokens/sec: 54067.72
+steps: 20, loss: 6.484710693359375, time: 303.21ms, tokens/sec: 54035.92
+steps: 21, loss: 6.223022937774658, time: 303.14ms, tokens/sec: 54047.65
+steps: 22, loss: 6.312718391418457, time: 303.38ms, tokens/sec: 54005.22
+steps: 23, loss: 6.244600296020508, time: 303.51ms, tokens/sec: 53981.08
+steps: 24, loss: 6.195643424987793, time: 302.77ms, tokens/sec: 54113.83
+steps: 25, loss: 6.424045562744141, time: 303.24ms, tokens/sec: 54028.95
+steps: 26, loss: 6.5054168701171875, time: 302.97ms, tokens/sec: 54077.72
+steps: 27, loss: 6.398387908935547, time: 302.99ms, tokens/sec: 54074.02
+steps: 28, loss: 6.32689094543457, time: 303.23ms, tokens/sec: 54031.37
+steps: 29, loss: 6.220961570739746, time: 302.89ms, tokens/sec: 54093.13
+steps: 30, loss: 6.244558334350586, time: 302.93ms, tokens/sec: 54085.98
+steps: 31, loss: 6.256058692932129, time: 303.54ms, tokens/sec: 53976.71
+steps: 32, loss: 6.213871955871582, time: 303.62ms, tokens/sec: 53961.49
+steps: 33, loss: 6.349896430969238, time: 303.82ms, tokens/sec: 53926.43
+steps: 34, loss: 6.43543815612793, time: 303.47ms, tokens/sec: 53988.50
+steps: 35, loss: 6.287631034851074, time: 303.72ms, tokens/sec: 53944.89
+steps: 36, loss: 6.291732311248779, time: 304.08ms, tokens/sec: 53881.15
+steps: 37, loss: 6.285970687866211, time: 308.89ms, tokens/sec: 53041.52
+steps: 38, loss: 6.253116130828857, time: 308.61ms, tokens/sec: 53089.42
+steps: 39, loss: 6.099828720092773, time: 304.16ms, tokens/sec: 53867.21
+steps: 40, loss: 6.258699417114258, time: 303.48ms, tokens/sec: 53987.52
+steps: 41, loss: 6.007099151611328, time: 303.08ms, tokens/sec: 54058.49
+steps: 42, loss: 6.145635604858398, time: 304.08ms, tokens/sec: 53881.06
+steps: 43, loss: 6.036346435546875, time: 303.86ms, tokens/sec: 53920.08
+steps: 44, loss: 5.985692024230957, time: 304.04ms, tokens/sec: 53887.82
+steps: 45, loss: 6.205381393432617, time: 303.83ms, tokens/sec: 53924.27
+steps: 46, loss: 6.325526237487793, time: 304.39ms, tokens/sec: 53824.81
+steps: 47, loss: 6.194923400878906, time: 303.49ms, tokens/sec: 53985.36
+steps: 48, loss: 6.134009838104248, time: 303.53ms, tokens/sec: 53978.15
+steps: 49, loss: 6.053783893585205, time: 303.85ms, tokens/sec: 53922.20
+(torch) azureuser@Linux-gpu:~/GPT/GPT2$
